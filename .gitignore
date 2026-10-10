@@ -1,0 +1,24 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales de editores
+*.tmp
+*~
+.~lock.*
+
+# Máquinas virtuales e imágenes de disco: ¡nunca al repositorio!
+*.iso
+*.vdi
+*.vmdk
+*.vhdx
+*.ova
+
+# Vídeos (se entregan por enlace, no en el repositorio)
+*.mp4
+*.mkv
+
+# Credenciales y secretos
+.env
+*.key
