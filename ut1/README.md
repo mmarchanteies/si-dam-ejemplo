@@ -1,45 +1,54 @@
-# Apuntes UT1 · Herramientas y documentación del técnico
+# UT1 – Título de la tarea
 
-Fuentes de los apuntes de la UT1 de Sistemas Informáticos (DAM virtual, IES Juan Bosco, curso 2026-2027).
+| | |
+|---|---|
+| **Alumno/a** | Nombre y apellidos |
+| **Módulo** | Sistemas Informáticos – DAM virtual |
+| **Fecha** | AAAA-MM-DD |
+| **Vídeo explicativo** | [Enlace al vídeo](https://...) |
 
-## Estructura
+## 1. Objetivo
 
-- `src/` — capítulos en Markdown (`00-presentacion.md` lleva los metadatos de portada).
-- `img/` — diagramas propios (SVG) e imágenes con licencia libre (créditos en el Anexo D).
-- `fonts/` — tipografías Inter y JetBrains Mono (licencia SIL OFL).
-- `build/` — filtro Lua, plantillas HTML, hojas de estilo y `build.sh`.
-- `plantillas/` — plantilla `README-tarea.md` y `.gitignore` para el alumnado.
+Qué se pretende conseguir en esta tarea, en dos o tres líneas.
 
-## Generar el HTML y el PDF
+## 2. Entorno de trabajo
 
-Requisitos: `pandoc` 3.x y `weasyprint` (`pip install weasyprint`).
+Sistema operativo y versión, software utilizado (con versiones),
+máquinas virtuales y datos personalizados de la tarea.
+
+## 3. Desarrollo
+
+### 3.1. Primer apartado
+
+Explicación de lo que se hace y por qué.
 
 ```bash
-./build/build.sh
+comando ejecutado
 ```
 
-Se generan en `salida/`.
-
-## Bloques destacados
-
-Se escriben como citas que empiezan por una etiqueta, por ejemplo:
-
-```markdown
-> [!CASO] Título del caso
-> Texto del caso.
+```text
+salida relevante del comando
 ```
 
-Etiquetas: `CASO`, `NOTA`, `CONSEJO`, `AVISO`, `IMPORTANTE`, `SABERMAS`, `AUTOEVAL`, `CAPTURA`.
+![Descripción de la captura](img/nombre-descriptivo.png)
 
-## Capturas pendientes
+### 3.2. Segundo apartado
 
-Buscar `[!CAPTURA]` en `src/`. Para sustituir un hueco por la captura real, guarda la imagen en `img/`
-con el nombre sugerido y cambia el bloque completo por:
+...
 
-```markdown
-![Descripción de la captura](img/nombre-sugerido.png)
-```
+## 4. Verificación
 
-## Licencia
+Cómo se comprueba que todo funciona (comandos, pruebas, resultados).
 
-CC BY-NC-SA 4.0, salvo las imágenes de terceros (Anexo D).
+## 5. Problemas encontrados y soluciones
+
+Qué falló, cómo lo diagnosticaste y cómo lo resolviste.
+
+## 6. Uso de inteligencia artificial
+
+Herramienta utilizada, para qué, qué verificaste y qué cambiaste.
+Si no has usado ninguna, indícalo.
+
+## 7. Fuentes consultadas
+
+- [Título de la fuente](URL), consultado el AAAA-MM-DD.
