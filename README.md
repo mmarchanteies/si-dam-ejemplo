@@ -1,45 +1,21 @@
-# Apuntes UT1 · Herramientas y documentación del técnico
+# Sistemas Informáticos – DAM virtual
 
-Fuentes de los apuntes de la UT1 de Sistemas Informáticos (DAM virtual, IES Juan Bosco, curso 2026-2027).
+Repositorio de tareas del módulo **Sistemas Informáticos** (CFGS DAM, modalidad virtual).
+Infraestructura informática de **DevNova S.L.**, proyecto transversal del curso 2026-2027.
 
-## Estructura
+| | |
+|---|---|
+| **Alumno/a** | María Marchante Armero |
+| **Centro** | IES Juan Bosco |
 
-- `src/` — capítulos en Markdown (`00-presentacion.md` lleva los metadatos de portada).
-- `img/` — diagramas propios (SVG) e imágenes con licencia libre (créditos en el Anexo D).
-- `fonts/` — tipografías Inter y JetBrains Mono (licencia SIL OFL).
-- `build/` — filtro Lua, plantillas HTML, hojas de estilo y `build.sh`.
-- `plantillas/` — plantilla `README-tarea.md` y `.gitignore` para el alumnado.
+## Tareas
 
-## Generar el HTML y el PDF
-
-Requisitos: `pandoc` 3.x y `weasyprint` (`pip install weasyprint`).
-
-```bash
-./build/build.sh
-```
-
-Se generan en `salida/`.
-
-## Bloques destacados
-
-Se escriben como citas que empiezan por una etiqueta, por ejemplo:
-
-```markdown
-> [!CASO] Título del caso
-> Texto del caso.
-```
-
-Etiquetas: `CASO`, `NOTA`, `CONSEJO`, `AVISO`, `IMPORTANTE`, `SABERMAS`, `AUTOEVAL`, `CAPTURA`.
-
-## Capturas pendientes
-
-Buscar `[!CAPTURA]` en `src/`. Para sustituir un hueco por la captura real, guarda la imagen en `img/`
-con el nombre sugerido y cambia el bloque completo por:
-
-```markdown
-![Descripción de la captura](img/nombre-sugerido.png)
-```
-
-## Licencia
-
-CC BY-NC-SA 4.0, salvo las imágenes de terceros (Anexo D).
+| Unidad | Tarea | Estado |
+|---|---|---|
+| UT1 | [Herramientas y documentación del técnico](ut1/README.md) | Entregada |
+| UT2 | Componentes del sistema informático | Pendiente |
+| UT3 | Instalación de sistemas operativos y virtualización | Pendiente |
+| UT4 | Sistemas de ficheros y copias de seguridad | Pendiente |
+| UT5 | Administración de sistemas operativos | Pendiente |
+| UT6 | Configuración de redes | Pendiente |
+| UT7 | Recursos en red, dominios y seguridad | Pendiente |
